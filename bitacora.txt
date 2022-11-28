@@ -38,5 +38,7 @@
          git pull origin master
          git push origin master      Error resuelto con estos dos pasos.
          git push origin master tag "RespuestaPreguntaFusion"
-
+  30     git add bitacora.txt
+         git commit -m "Paso 30"
+  31     git merge Historia001       Fusion recursiva, ya que ahora sí contábamos con cambios.
 
