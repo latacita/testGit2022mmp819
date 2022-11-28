@@ -1,8 +1,14 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Martín Pérez, Mario):                                      %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+  22     git add bitacora.txt
+  23     git commit -m "Paso 23"
+  24     git checkout master
+  25     Fusión hipotética           Partiendo de que master no cuenta con commits/
+                                     modificaciones, se realizaría una fusión fast-
+                                     forward. 
