@@ -6,3 +6,9 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+  03      git branch Historia000
+  04      git branch Historia001
+  05      git checkout Historia000      Se indica que queda la modificacion
+                                        de la bitacora con nombres y apellidos
+                                        sin hacer commit. Por seguridad, se
+                                        ha hecho un git stash antes del checkout
