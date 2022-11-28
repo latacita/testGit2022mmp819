@@ -12,3 +12,11 @@
   25     Fusión hipotética           Partiendo de que master no cuenta con commits/
                                      modificaciones, se realizaría una fusión fast-
                                      forward. 
+  26     git add bitacora.txt
+         git commit -m "Paso 26"
+  27     git tag "RespuestaPreguntaFusion"
+  28     git push origin master      Error, ya que hay cambias subidos antes por alguien,
+                                     de los que hay que hacer pull.
+         git pull origin master
+         git push origin master      Error resuelto con estos dos pasos.
+         git push origin master tag "RespuestaPreguntaFusion"
