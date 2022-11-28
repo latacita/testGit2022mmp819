@@ -6,10 +6,20 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+  03      git branch Historia000
+  04      git branch Historia001
+  05      git checkout Historia000      Se indica que queda la modificacion
+                                        de la bitacora con nombres y apellidos
+                                        sin hacer commit. Por seguridad, se
+                                        ha hecho un git stash antes del checkout
   7      git add bitacora.txt
   8      git commit -m "Paso 08"
   9      git checkout Historia001
+  11      git add bitacora.txt
+          git stash                     Seguido de git stash list si quiere comprobarse
+          git checkout Historia000
   13     git add bitacora.txt
   14     git commit -m "Paso 14"
   15     git checkout Historia001
   16     git stash apply 0
+
